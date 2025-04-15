@@ -1,0 +1,11 @@
+file_format: "1"
+id: spliteo
+name: Spliteo
+type: shield
+url: https://github.com/tedraykov/spliteo/
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - spliteo_left
+  - spliteo_right

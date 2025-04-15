@@ -1,0 +1,8 @@
+# Copyright (c) 2025 Ted Raykov
+# SPDX-License-Identifier: MIT
+
+config SHIELD_SPLITEO_LEFT
+    def_bool $(shields_list_contains,spliteo_left)
+
+config SHIELD_SPLITEO_RIGHT
+    def_bool $(shields_list_contains,spliteo_right)

@@ -1,0 +1,16 @@
+if SHIELD_SPLITEO_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Spliteo"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_SPLITEO_LEFT || SHIELD_SPLITEO_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
