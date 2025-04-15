@@ -1,0 +1,8 @@
+manifest:
+  remotes:
+    - name: tedraykov
+      url-base: https://github.com/tedraykov
+  projects:
+    - name: zmk-config
+      remote: tedraykov
+      import: west.yml
