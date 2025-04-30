@@ -9,7 +9,8 @@
 #include <dt-bindings/zmk/bt.h>
 
 &mt {
-    tapping-term-ms = <1200>; // This is the value already set by default
+    tapping-term-ms = <400>; // This is the value already set by default
+    flavor = "balanced";
 };
 
 / {
