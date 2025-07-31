@@ -30,10 +30,10 @@
                 };
                 lower_layer {
                         bindings = <
-   &bootloader    &trans    &trans    &trans    &trans    &kp LPAR      &kp RPAR  &kp N7     &kp N8   &kp N9  &kp N0 &soft_off
-   &studio_unlock &kp LC(N1) &kp LC(N2) &kp LC(N3) &kp LC(N4) &kp LBKT      &kp RBKT  &kp N4     &kp N5   &kp N6  &trans &trans
-   &soft_off      &kp LC(N7) &kp LC(N6) &kp LC(N7) &kp LC(N8) &kp BACKSLASH &kp N0    &kp N1     &kp N2   &kp N3  &trans &trans
-                            &trans    &trans    &trans    &trans        &trans    &kp RSHFT  &kp RALT &trans
+   &bootloader    &trans     &trans     &trans     &trans     &kp LPAR      &kp RPAR  &kp N7     &kp N8    &kp N9  &kp N0 &soft_off
+   &studio_unlock &kp LC(N1) &kp LC(N2) &kp LC(N3) &kp LC(N4) &kp LBKT      &kp RBKT  &kp N4     &kp N5    &kp N6  &trans &trans
+   &soft_off      &kp LC(N7) &kp LC(N6) &kp LC(N7) &kp LC(N8) &kp BACKSLASH &kp N0    &kp N1     &kp N2    &kp N3  &trans &trans
+                             &trans     &trans     &trans     &trans        &trans    &kp RSHFT  &kp RSHFT &trans
                         >;
                 };
 
